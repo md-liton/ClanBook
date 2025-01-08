@@ -11,7 +11,7 @@
     --color-third: #445164;
 
 
-    --font-family: "Inter", sans-serif;
+    --font-family: "Inter", serif;
 
     --font-size-b1: 18px;
     --font-size-b2: 16px;
@@ -80,4 +80,82 @@ p{
     line-height: 26px;
     font-size: var(--font-size-b1);
 }
+
 /* <<<<< All Common Css Part End >>>>> */
+
+
+
+/* <<<<< Navbar Css Part Start >>>>> */
+#nav{
+    padding: 29px 0;
+}
+#nav .nav_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav .nav_main .logo{
+    width: 20%;
+}
+#nav .nav_main .menu{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav .nav_main .menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav .nav_main .menu ul li{
+    padding: 0 20px;
+    border-right: 1px solid #D6DAE1;
+}
+#nav .nav_main .menu ul li:last-child {
+    border-right: none;
+}
+#nav .nav_main .menu ul li a{
+    color: var(--color-third);
+    font-weight: 400;
+    font-size: var(--font-size-b2);
+    transition: all linear .3s;
+}
+#nav .nav_main .menu ul li a:hover{
+    color: var(--color-primary);
+}
+#nav .nav_main .menu ul li a.active{
+    color: var(--color-primary);
+}
+#nav .nav_main .login{
+    width: 20%;
+    display: flex ;
+    gap: 20px;
+    justify-content: end;
+    align-items: center;
+}
+#nav .nav_main .login button{
+    padding: 15px 30px;
+    border: 1px solid var(--color-primary);
+    border-radius: 8px;
+    background: var(--color-primary);
+    color: #fff;
+    transition: all linear .3s;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: var(--font-size-b2);
+}
+#nav .nav_main .login button:hover{
+    background: transparent;
+    color: var(--color-primary);
+}
+#nav .nav_main .login img{
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+/* <<<<< Navbar Css Part End >>>>> */
+
