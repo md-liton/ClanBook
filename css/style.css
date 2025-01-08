@@ -88,6 +88,11 @@ p{
 /* <<<<< Navbar Css Part Start >>>>> */
 #nav{
     padding: 29px 0;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 #nav .nav_main{
     display: flex;
@@ -158,4 +163,36 @@ p{
 }
 
 /* <<<<< Navbar Css Part End >>>>> */
+
+
+
+/* Banner Part Start */
+#banner{
+    background-image: url(../images/Banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#banner .banner_main{
+    padding: 172px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+#banner .banner_main .banner_left{
+    width: 50%;
+}
+#banner .banner_main .banner_left h1{
+    color: var(--color-secondary);
+}
+#banner .banner_main .banner_left h1 span{
+    color: var(--color-primary);
+}
+#banner .banner_main .banner_right{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+/* Banner Part End */
 
