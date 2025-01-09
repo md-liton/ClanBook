@@ -48,7 +48,7 @@ ul,ol{
     list-style: none;
 }
 .container{
-    width: 1170px;
+    width: 1320px;
     margin: 0 auto;
 }
 h1{
@@ -280,7 +280,7 @@ p{
 #clanbooker .clanbooker_main{
     background: #fff;
     text-align: center;
-    padding: 70px 90px;
+    padding: 70px 170px;
     border-radius: 16px;
 }
 #clanbooker .clanbooker_main h3 span{
@@ -329,7 +329,7 @@ p{
     padding: 25px 0;
 }
 #experience .experience_main .experience_contact .item{
-    width: 217px;
+    width: 242px;
     height: 180px;
     padding: 35px 60px;
     border-radius: 16px;
@@ -337,7 +337,7 @@ p{
     cursor: pointer;
     border: 1px solid #EAECF0;
     transition: all linear .3s;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 #experience .experience_main .experience_contact .item:hover{
     background: transparent;
@@ -495,7 +495,7 @@ p{
     padding: 30px;
     border-radius: 16px;
     background: #F5F6F7;
-    width: 370px;
+    width: 425px;
 }
 #community .community_item .item .profile{ 
     display: flex;
@@ -545,4 +545,139 @@ p{
     color: var(--color-primary);
 }
 /* Community Css Part End */
+
+
+/* Footer Part Start */
+#footer{
+    padding: 60px 0;
+    background: #F5F6F7
+}
+#footer .footer_main .subscrib{
+    background: var(--color-primary);
+    border-radius: 16px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer .footer_main .subscrib .subscrib_left{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+#footer .footer_main .subscrib .subscrib_left .email{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    background: #fff;
+    color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 25px;
+}
+#footer .footer_main .subscrib .subscrib_left .email_inf,#footer .footer_main .subscrib .subscrib_left .email_inf p{
+    color: #fff;
+}
+#footer .footer_main .subscrib .subscrib_right{
+    width: 40%;
+}
+#footer .footer_main .subscrib .subscrib_right .email_input{
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer .footer_main .subscrib .subscrib_right .email_input .input input{
+    font-size: 16px;
+    color: #ABAEBB;
+    border: none;
+}
+#footer .footer_main .subscrib .subscrib_right .btn button{
+    padding: 6px 12px;
+    border: 1px solid var(--color-primary);
+    border-radius: 4px;
+    background: var(--color-primary);
+    color: #fff;
+    transition: all linear .3s;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: var(--font-size-b2);
+}
+#footer .footer_main .subscrib .subscrib_right .btn button:hover{
+    background: transparent;
+    color: var(--color-primary);
+}
+#footer .footer_main .footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+#footer .footer_main .footer_bottom .left{
+    width: 30%;
+}
+#footer .footer_main .footer_bottom .left p{
+    padding: 20px 50px 20px 0;
+}
+#footer .footer_main .footer_bottom .left .icons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+#footer .footer_main .footer_bottom .left .icons .icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-primary);
+    transition: all linear .3s;
+}
+#footer .footer_main .footer_bottom .left .icons .icon:hover{
+    color: #fff;
+    background: var(--color-primary);
+}
+#footer .footer_main .footer_bottom .right{
+    width: 70%;
+}
+#footer .footer_main .footer_bottom .right .items{
+    display: flex;
+    justify-content: space-between;
+}
+#footer .footer_main .footer_bottom .right .items .item h6{
+    font-weight: 800;
+    text-transform: capitalize;
+}
+#footer .footer_main .footer_bottom .right .items .item ul li{
+    padding: 5px 0 ; 
+}
+#footer .footer_main .footer_bottom .right .items .item ul li a{
+    color: var(--color-third);
+    transition: all linear .3s;
+    text-transform: capitalize;
+}
+#footer .footer_main .footer_bottom .right .items .item ul li a:hover{
+    color: var(--color-primary);
+}
+#copyright{
+    padding: 16px 0;
+    background: var(--color-primary);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+#copyright h6{
+    cursor: pointer;
+}
+/* Footer Part End */
 
