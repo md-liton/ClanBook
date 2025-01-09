@@ -268,3 +268,41 @@ p{
 }
 /* ClanBook Css Part End */
 
+
+/* ClanBooker Css Part Start */
+#clanbooker{
+    padding: 50px 0;
+    background: url(../images/clanbooker.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#clanbooker .clanbooker_main{
+    background: #fff;
+    text-align: center;
+    padding: 70px 90px;
+    border-radius: 16px;
+}
+#clanbooker .clanbooker_main h3 span{
+    color: var(--color-primary);
+}
+#clanbooker .clanbooker_main p{
+    padding: 25px 100px;
+}
+#clanbooker .clanbooker_main button{
+    padding: 15px 30px;
+    border: 1px solid var(--color-primary);
+    border-radius: 8px;
+    background: var(--color-primary);
+    color: #fff;
+    transition: all linear .3s;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: var(--font-size-b2);
+}
+#clanbooker .clanbooker_main button:hover{
+    background: transparent;
+    color: var(--color-primary);
+}
+/* ClanBooker Css Part End */
+
