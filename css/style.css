@@ -34,7 +34,7 @@
     outline: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--font-primary);
+    font-family: var(--font-family);
 }
 
 img{
@@ -180,9 +180,6 @@ p{
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-}
-#banner .banner_main .banner_left{
-    width: 50%;
 }
 #banner .banner_main .banner_left h1{
     color: var(--color-secondary);
@@ -680,4 +677,278 @@ p{
     cursor: pointer;
 }
 /* Footer Part End */
+
+
+
+
+/* <<<<<<<Responsive Part Start>>>>>>> */
+@media (max-width: 400.98px) {
+    .container{
+        width: 380px;
+        margin: 0 auto;
+    }
+
+    h1{
+        font-size: var(--h4);
+        font-weight: 800;
+    }
+    h2{
+        font-size: var(--h5);
+        font-weight: 800;
+    }
+    h3{
+        font-size: var(--h6);
+        font-weight: 700;
+    }
+    /* h4{
+        font-size: var(--h4);
+        font-weight: 700;
+    }
+    h5{
+        font-size: var(--h5);
+        font-weight: 600;
+    }
+    h6{
+        font-size: var(--h6);
+        font-weight: 600;
+    } */
+    p{
+        font-size: 13px;
+    }
+    /* #nav {
+        padding: 10px 5px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    } */
+    /* #nav .nav_main .menu{
+        display: none;
+    }
+    #nav .nav_main .login{
+        display: none;
+    } */
+    /* #nav{
+        padding: 29px 0;
+        background: #fff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    #nav .nav_main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #nav .nav_main .logo{
+        width: 20%;
+    }
+    
+    #nav .nav_main .menu ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #nav .nav_main .menu ul li{
+        padding: 0 20px;
+        border-right: 1px solid #D6DAE1;
+    }
+    #nav .nav_main .menu ul li:last-child {
+        border-right: none;
+    }
+    #nav .nav_main .menu ul li a{
+        color: var(--color-third);
+        font-weight: 400;
+        font-size: var(--font-size-b2);
+        transition: all linear .3s;
+    }
+    #nav .nav_main .menu ul li a:hover{
+        color: var(--color-primary);
+    }
+    #nav .nav_main .menu ul li a.active{
+        color: var(--color-primary);
+    }
+    #nav .nav_main .login{
+        width: 20%;
+        display: flex ;
+        gap: 20px;
+        justify-content: end;
+        align-items: center;
+    }
+    #nav .nav_main .login button{
+        padding: 15px 30px;
+        border: 1px solid var(--color-primary);
+        border-radius: 8px;
+        background: var(--color-primary);
+        color: #fff;
+        transition: all linear .3s;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: var(--font-size-b2);
+    }
+    #nav .nav_main .login button:hover{
+        background: transparent;
+        color: var(--color-primary);
+    }
+    #nav .nav_main .login img{
+        height: 50px;
+        width: 50px;
+        overflow: hidden;
+        cursor: pointer;
+        border-radius: 50%;
+    } */
+    #banner .banner_main{
+        padding: 140px 10px 70px 10px;
+        text-align: center;
+    }
+    #banner .banner_main .banner_left h1{
+        font-size: var(--h4);
+        text-align: center;
+        width: 380px;
+    }
+    #banner .banner_main .banner_left p{
+        width: 380px;
+        text-align: center;
+    }
+    #banner .banner_main .banner_right img{
+        display: none ;
+    }
+    #banner .banner_main .banner_left button {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+    /* #banner .banner_main .banner_left h1 span{
+        color: var(--color-primary);
+    }
+    
+    #banner .banner_main .banner_left button{
+        padding: 15px 30px;
+        border: 1px solid var(--color-primary);
+        border-radius: 8px;
+        background: var(--color-primary);
+        color: #fff;
+        transition: all linear .3s;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: var(--font-size-b2);
+    }
+    #banner .banner_main .banner_left button:hover{
+        background: transparent;
+        color: var(--color-primary);
+    }
+    #banner .banner_main .banner_right{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    } */
+    
+    /* #banner .banner_main .banner_left h1{
+        color: var(--color-secondary);
+    }
+    #banner .banner_main .banner_left h1 span{
+        color: var(--color-primary);
+    } */
+
+    #clanbook {
+        padding: 30px 0;
+    }
+    #clanbook .clanbook_main .clanbook_bottom {
+        padding: 30px 0;
+        display: block;
+    }
+    #clanbook .clanbook_main .clanbook_bottom .clanbook_left img{
+        width: 380px;
+    }
+    #clanbook .clanbook_main .clanbook_bottom .clanbook_right{
+        width: 100%;
+    }
+    #clanbook .clanbook_main .clanbook_bottom .clanbook_right .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #clanbook .clanbook_main .clanbook_bottom .clanbook_right button {
+        margin-top: 15px;
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+    #clanbooker .clanbooker_main {
+        padding: 30px 26px;
+        border-radius: 8px;
+    }
+    #clanbooker .clanbooker_main p {
+        padding: 15px 15px;
+    }
+    #clanbooker .clanbooker_main button {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+    #experience .experience_main .experience_contact .item {
+        width: 180px;
+        height: 150px;
+        padding: 15px 15px;
+    }
+    #offer .offer_main .offer_bottom {
+        display: block;
+        margin-top: 0px;
+    }
+    #offer .offer_main .offer_bottom .offer_left {
+        width: 100%;
+        padding: 15px;
+    }
+    #offer .offer_main .offer_bottom .offer_left .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #offer .offer_main .offer_bottom .offer_left .btn button {
+        padding: 10px 15px;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    #offer .offer_main .offer_bottom .offer_right {
+        width: 100%;
+        display: block;
+    }
+    #offer .offer_main .offer_bottom .offer_right .item {
+        padding: 25px 30px;
+        margin: 10px 0;
+    }
+    #offer .offer_main .offer_bottom .offer_right h4 {
+        font-size: 18px;
+    }
+
+    #community {
+        padding: 30px 0;
+    }
+    #community .community_header p {
+        padding: 10px 24px;
+    }
+    #community .community_item {
+        display: block;
+        padding: 20px 0;
+    }
+    #community .community_item .item {
+        padding: 10px;
+        border-radius: 10px;
+        width: 380px;
+        margin: 10px 0;
+    }
+    #community .community_main .btn button {
+        width: 80px;
+        padding: 8px 6px;
+        font-size: 12px;
+    }
+    #footer {
+        padding: 30px 0;
+    }
+    #footer .footer_main .subscrib {
+        border-radius: 10px;
+        padding: 10px;
+        display: block;
+    }
+}
+/* <<<<<<<Responsive Part End>>>>>>> */
 
