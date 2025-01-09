@@ -306,3 +306,46 @@ p{
 }
 /* ClanBooker Css Part End */
 
+
+/* Experience Css Part Start */
+#experience{
+    padding: 50px 0;
+}
+#experience .experience_main .experience_header{
+    text-align: center;
+}
+#experience .experience_main .experience_header h2 span{
+    color: var(--color-primary);
+}
+#experience .experience_main .experience_header p{
+    padding: 16px 0;
+}
+#experience .experience_main .experience_contact{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 25px 0;
+}
+#experience .experience_main .experience_contact .item{
+    width: 217px;
+    height: 180px;
+    padding: 35px 60px;
+    border-radius: 16px;
+    background: #EAECF0;
+    cursor: pointer;
+    border: 1px solid #EAECF0;
+    transition: all linear .3s;
+    margin-bottom: 8px;
+}
+#experience .experience_main .experience_contact .item:hover{
+    background: transparent;
+}
+#experience .experience_main .experience_contact p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+/* Experience Css Part End */
+
