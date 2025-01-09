@@ -79,6 +79,7 @@ p{
     font-weight: 400;
     line-height: 26px;
     font-size: var(--font-size-b1);
+    color: var(--color-third);
 }
 
 /* <<<<< All Common Css Part End >>>>> */
@@ -166,7 +167,7 @@ p{
 
 
 
-/* Banner Part Start */
+/* Banner Css Part Start */
 #banner{
     background-image: url(../images/Banner.png);
     background-position: center;
@@ -189,10 +190,81 @@ p{
 #banner .banner_main .banner_left h1 span{
     color: var(--color-primary);
 }
+#banner .banner_main .banner_left p{
+    padding: 20px 20px 20px 0;
+}
+#banner .banner_main .banner_left button{
+    padding: 15px 30px;
+    border: 1px solid var(--color-primary);
+    border-radius: 8px;
+    background: var(--color-primary);
+    color: #fff;
+    transition: all linear .3s;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: var(--font-size-b2);
+}
+#banner .banner_main .banner_left button:hover{
+    background: transparent;
+    color: var(--color-primary);
+}
 #banner .banner_main .banner_right{
     display: flex;
     justify-content: end;
     align-items: center;
 }
-/* Banner Part End */
+/* Banner Css Part End */
+
+
+
+/* ClanBook Css Part Start */
+#clanbook{
+    padding: 55px 0;
+}
+#clanbook .clanbook_main .clanbook_header{
+    text-align: center;
+}
+#clanbook .clanbook_main .clanbook_header h2{
+    color: var(--color-secondary);
+}
+#clanbook .clanbook_main .clanbook_header span{
+    color: var(--color-primary);
+}
+#clanbook .clanbook_main .clanbook_bottom{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+#clanbook .clanbook_main .clanbook_bottom .clanbook_left{
+    width: 50%;
+}
+#clanbook .clanbook_main .clanbook_bottom .clanbook_right{
+    width: 50%;
+}
+#clanbook .clanbook_main .clanbook_bottom .clanbook_right .item{
+    display: flex;
+    gap: 5px;
+}
+#clanbook .clanbook_main .clanbook_bottom .clanbook_right button{
+    margin-top: 30px;
+    padding: 15px 30px;
+    border: 1px solid var(--color-primary);
+    border-radius: 8px;
+    background: var(--color-primary);
+    color: #fff;
+    transition: all linear .3s;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: var(--font-size-b2);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#clanbook .clanbook_main .clanbook_bottom .clanbook_right button:hover{
+    background: transparent;
+    color: var(--color-primary);
+}
+/* ClanBook Css Part End */
 
