@@ -36,6 +36,9 @@
     box-sizing: border-box;
     font-family: var(--font-family);
 }
+body{
+    overflow-x: hidden;
+}
 
 img{
     vertical-align: middle;
