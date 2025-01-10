@@ -715,20 +715,29 @@ p{
         width: 100%;
     }
     #nav .menu_icon{
-        display: block;
+        display: flex;
+        align-items: center;
+        gap: 20px;
         position: absolute;
-        top: 25px;
+        top: 15px;
         right: 15px;
         cursor: pointer;
         font-size: 25px;
     }
+    #nav .menu_icon img{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    }
     #nav .menu_icon .bar{
         display: none;
         transition: all linear .4s;
+        width: 40px;
     }
     #nav .menu_icon .close{
         display: none;
         transition: all linear .4s;
+        width: 40px;
     }
     #nav .menu_icon .menu_active{
         display: block;
