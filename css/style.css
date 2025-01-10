@@ -1740,6 +1740,9 @@ p{
         left: 0;
         width: 100%;
     }
+    #nav .nav_main{
+        width: 350px;
+    }
     #nav .menu_icon{
         display: flex;
         align-items: center;
