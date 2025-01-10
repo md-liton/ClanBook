@@ -1460,7 +1460,7 @@ p{
         font-weight: 700;
     }
     p{
-        font-size: 13px;
+        font-size: 12px;
     }
     #nav {
         padding: 15px 0;
@@ -1615,7 +1615,7 @@ p{
         margin: 10px 0;
     }
     #offer .offer_main .offer_bottom .offer_right h4 {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     #community {
@@ -1725,7 +1725,7 @@ p{
         font-weight: 700;
     }
     p{
-        font-size: 13px;
+        font-size: 12px;
     }
     #nav {
         padding: 15px 0;
@@ -1875,11 +1875,11 @@ p{
         display: block;
     }
     #offer .offer_main .offer_bottom .offer_right .item {
-        padding: 25px 30px;
+        padding: 15px;
         margin: 10px 0;
     }
     #offer .offer_main .offer_bottom .offer_right h4 {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     #community {
