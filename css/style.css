@@ -679,6 +679,120 @@ p{
 
 
 /* <<<<<<<Responsive Part Start>>>>>>> */
+@media (max-width: 1199.98px) {
+    .container{
+        width: 1140px;
+        margin: 0 auto;
+    }
+    p{
+        font-size: 16px;
+    } 
+    #nav {
+        padding: 18px 0;
+        position: relative;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    #nav .nav_main .login button {
+        padding: 12px 20px;
+        border-radius: 8px;
+        font-size: 14px;
+    }
+    
+    #banner .banner_main{
+        padding: 140px 10px 70px 10px;
+        text-align: center;
+    }
+    /* #banner .banner_main .banner_left{
+        width: 50%;
+        padding: 0 20px;
+    } */
+    #banner .banner_main .banner_left h1{
+        font-size: var(--h1);
+        text-align: center;
+    }
+    #banner .banner_main .banner_left p{
+        padding: 8px 0px;
+        text-align: center;
+    }
+    #banner .banner_main .banner_right img{
+        width: 450px;
+    }
+    #banner .banner_main .banner_left button {
+        padding: 14px 18px;
+        font-size: 13px;
+    }
+    
+    #clanbook {
+        padding: 30px 0;
+    }
+    #clanbooker .clanbooker_main {
+        padding: 30px 20px;
+    }
+    #clanbooker .clanbooker_main button {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    #clanbook .clanbook_main .clanbook_bottom .clanbook_left img{
+        width: 450px;
+    }
+    #clanbooker .clanbooker_main p {
+        font-size: 15px;
+    }
+    #clanbook .clanbook_main .clanbook_bottom .clanbook_right button {
+        margin-top: 15px;
+        padding: 12px 18px;
+        font-size: 13px;
+    }
+
+    #experience .experience_main .experience_contact .item {
+        width: 200px;
+        height: 160px;
+        padding: 18px;
+    }
+    #offer .offer_main .offer_bottom .offer_left .btn button {
+        padding: 12px 18px;
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    
+    #community {
+        padding: 30px 0;
+    }
+    #community .community_main .community_header  {
+        padding: 0 100px;
+    }
+    #community .community_header p {
+        padding: 10px 110px;
+    }
+    #community .community_item {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px 0;
+    }
+    #community .community_item .item {
+        padding: 20px;
+        border-radius: 10px;
+        width: 400px;
+        margin: 10px 0;
+    }
+    #community .community_main .btn button {
+        width: 140px;
+        padding: 12px 18px;
+        font-size: 13px;
+    }
+    #footer {
+        padding: 30px 0;
+    }
+    #footer .footer_main .subscrib {
+        border-radius: 10px;
+        padding: 20px 10px;
+    }
+}
 @media (max-width: 991.98px) {
     .container{
         width: 960px;
