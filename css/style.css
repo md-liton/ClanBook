@@ -924,6 +924,7 @@ p{
 @media (max-width: 767.98px) {
     .container{
         width: 750px;
+        padding: 10px;
         margin: 0 auto;
     }
 
@@ -1164,6 +1165,7 @@ p{
 @media (max-width: 575.98px) {
     .container{
         width: 550px;
+        padding: 0 8px;
         margin: 0 auto;
     }
 
@@ -1444,6 +1446,7 @@ p{
 @media (max-width: 480.98px) {
     .container{
         width: 400px;
+        padding: 0 6px;
         margin: 0 auto;
     }
 
@@ -1476,7 +1479,7 @@ p{
         gap: 20px;
         position: absolute;
         top: 15px;
-        right: 15px;
+        right: 0px;
         cursor: pointer;
         font-size: 25px;
     }
@@ -1709,6 +1712,7 @@ p{
 @media (max-width: 400.98px) {
     .container{
         width: 380px;
+        padding: 0 6px;
         margin: 0 auto;
     }
 
@@ -1741,7 +1745,7 @@ p{
         gap: 20px;
         position: absolute;
         top: 15px;
-        right: 15px;
+        right: 0px;
         cursor: pointer;
         font-size: 25px;
     }
@@ -1848,9 +1852,15 @@ p{
     }
 
     #experience .experience_main .experience_contact .item {
-        width: 180px;
-        height: 150px;
+        width: 150px;
+        height: 129px;
         padding: 15px 15px;
+    }
+    #experience .experience_main .experience_contact img {
+        width: 50px;
+    }
+    #experience .experience_main .experience_contact p {
+        font-size: 12px;
     }
     #offer .offer_main .offer_bottom {
         display: block;
@@ -1889,13 +1899,13 @@ p{
         padding: 10px 24px;
     }
     #community .community_item {
-        display: block;
+        display: flex;
         padding: 20px 0;
     }
     #community .community_item .item {
         padding: 10px;
         border-radius: 10px;
-        width: 380px;
+        width: 340px;
         margin: 10px 0;
     }
     #community .community_main .btn button {
