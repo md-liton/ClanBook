@@ -1344,7 +1344,6 @@ p{
     }
     #offer .offer_main .offer_bottom .offer_right {
         width: 100%;
-        display: block;
     }
     #offer .offer_main .offer_bottom .offer_right .item {
         padding: 25px 30px;
@@ -1616,10 +1615,10 @@ p{
     }
     #offer .offer_main .offer_bottom .offer_right {
         width: 100%;
-        display: block;
     }
     #offer .offer_main .offer_bottom .offer_right .item {
-        padding: 25px 30px;
+        width: 350px;
+        padding: 15px;
         margin: 10px 0;
     }
     #offer .offer_main .offer_bottom .offer_right h4 {
@@ -1657,7 +1656,6 @@ p{
     }
     #footer .footer_main .subscrib .subscrib_left {
         width: 100%;
-        display: flex;
     }
     #footer .footer_main .subscrib .subscrib_left .email {
         height: 45px;
@@ -1722,11 +1720,11 @@ p{
     }
 
     h1{
-        font-size: var(--h5);
+        font-size: 24px;
         font-weight: 800;
     }
     h2{
-        font-size: var(--h5);
+        font-size:24px;
         font-weight: 800;
     }
     h3{
@@ -1750,7 +1748,7 @@ p{
         gap: 20px;
         position: absolute;
         top: 15px;
-        right: 0px;
+        right: 10px;
         cursor: pointer;
         font-size: 25px;
     }
@@ -1806,7 +1804,7 @@ p{
         text-align: center;
     }
     #banner .banner_main .banner_left h1{
-        font-size: var(--h4);
+        font-size: 30px;
         text-align: center;
     }
     #banner .banner_main .banner_left p{
@@ -1893,9 +1891,9 @@ p{
     }
     #offer .offer_main .offer_bottom .offer_right {
         width: 100%;
-        display: block;
     }
     #offer .offer_main .offer_bottom .offer_right .item {
+        width: 350px;
         padding: 15px;
         margin: 10px 0;
     }
@@ -1934,7 +1932,6 @@ p{
     }
     #footer .footer_main .subscrib .subscrib_left {
         width: 100%;
-        display: flex;
     }
     #footer .footer_main .subscrib .subscrib_left .email {
         height: 45px;
