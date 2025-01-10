@@ -1319,6 +1319,7 @@ p{
         padding: 6px 30px;
     }
     #experience .experience_main .experience_contact {
+        width: 350px;
         justify-content: center;
     }
     #offer .offer_main .offer_header p {
@@ -1504,9 +1505,6 @@ p{
     #nav .nav_main {
         display: block;
     }
-    #nav .nav_main .logo {
-        width: 100%;
-    }
     #nav .nav_main .menu {
         width: 100%;
         display: none;
@@ -1614,7 +1612,7 @@ p{
         margin-top: 20px;
     }
     #offer .offer_main .offer_bottom .offer_right {
-        width: 100%;
+        width: 350px;
     }
     #offer .offer_main .offer_bottom .offer_right .item {
         width: 350px;
@@ -1632,7 +1630,7 @@ p{
         padding: 10px 24px;
     }
     #community .community_item {
-        display: block;
+        display: flex;
         padding: 20px 0;
     }
     #community .community_item .item {
@@ -1652,7 +1650,7 @@ p{
     #footer .footer_main .subscrib {
         border-radius: 10px;
         padding: 10px;
-        display: block;
+        width: 350px;
     }
     #footer .footer_main .subscrib .subscrib_left {
         width: 100%;
@@ -1663,7 +1661,7 @@ p{
         border-radius: 6px;
     }
     #footer .footer_main .subscrib .subscrib_right {
-        width: 100%;
+        width: 300px;
     }
     #footer .footer_main .subscrib .subscrib_right .email_input {
         border-radius: 5px;
@@ -1774,9 +1772,6 @@ p{
     #nav .nav_main {
         display: block;
     }
-    #nav .nav_main .logo {
-        width: 100%;
-    }
     #nav .nav_main .menu {
         width: 100%;
         display: none;
@@ -1851,6 +1846,7 @@ p{
     #clanbooker .clanbooker_main {
         padding: 14px 10px;
         border-radius: 8px;
+        width: 350px;
     }
     #clanbooker .clanbooker_main p {
         padding: 15px 15px;
@@ -1890,7 +1886,7 @@ p{
         margin-top: 20px;
     }
     #offer .offer_main .offer_bottom .offer_right {
-        width: 100%;
+        width: 350px;
     }
     #offer .offer_main .offer_bottom .offer_right .item {
         width: 350px;
@@ -1928,7 +1924,7 @@ p{
     #footer .footer_main .subscrib {
         border-radius: 10px;
         padding: 10px;
-        display: block;
+        width: 350px;
     }
     #footer .footer_main .subscrib .subscrib_left {
         width: 100%;
@@ -1939,7 +1935,7 @@ p{
         border-radius: 6px;
     }
     #footer .footer_main .subscrib .subscrib_right {
-        width: 100%;
+        width: 300px;
     }
     #footer .footer_main .subscrib .subscrib_right .email_input {
         border-radius: 5px;
@@ -1965,8 +1961,11 @@ p{
         padding: 10px 0;
     }
     #footer .footer_main .footer_bottom .right {
-        width: 100%;
+        width: 350px;
         padding: 10px 0;
+    }
+    #footer .footer_main .subscrib .subscrib_right .email_input .input input {
+        font-size: 13px;
     }
     #footer .footer_main .footer_bottom .right .items {
         flex-wrap: wrap;
