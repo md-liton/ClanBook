@@ -1537,7 +1537,6 @@ p{
     #banner .banner_main .banner_left h1{
         font-size: var(--h4);
         text-align: center;
-        width: 380px;
     }
     #banner .banner_main .banner_left p{
         width: 380px;
@@ -1559,7 +1558,7 @@ p{
         display: block;
     }
     #clanbook .clanbook_main .clanbook_bottom .clanbook_left img{
-        width: 350px;
+        width: 300px;
     }
     #clanbook .clanbook_main .clanbook_bottom .clanbook_right{
         width: 100%;
@@ -1824,7 +1823,7 @@ p{
         display: block;
     }
     #clanbook .clanbook_main .clanbook_bottom .clanbook_left img{
-        width: 350px;
+        width: 300px;
     }
     #clanbook .clanbook_main .clanbook_bottom .clanbook_right{
         width: 100%;
