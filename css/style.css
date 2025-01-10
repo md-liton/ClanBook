@@ -818,7 +818,7 @@ p{
         font-size: 18px;
     }
     #banner .banner_main{
-        padding: 140px 10px 70px 10px;
+        padding: 140px 0px 70px 0px;
         text-align: center;
     }
     #banner .banner_main .banner_left{
@@ -960,7 +960,7 @@ p{
         font-size: 13px;
     }
     #banner .banner_main{
-        padding: 140px 10px 70px 10px;
+        padding: 140px 0px 70px 0px;
         text-align: center;
     }
     #banner .banner_main .banner_left{
@@ -1250,7 +1250,7 @@ p{
         display: none;
     }
     #banner .banner_main{
-        padding: 140px 10px 70px 10px;
+        padding: 140px 0px 70px 0px;
         text-align: center;
     }
     #banner .banner_main .banner_left{
@@ -1451,7 +1451,7 @@ p{
     }
 
     h1{
-        font-size: var(--h4);
+        font-size: var(--h5);
         font-weight: 800;
     }
     h2{
@@ -1531,7 +1531,7 @@ p{
         display: none;
     }
     #banner .banner_main{
-        padding: 140px 10px 70px 10px;
+        padding: 140px 0px 70px 0px;
         text-align: center;
     }
     #banner .banner_main .banner_left h1{
@@ -1562,6 +1562,12 @@ p{
     }
     #clanbook .clanbook_main .clanbook_bottom .clanbook_right{
         width: 100%;
+    }
+    #clanbook .clanbook_main .clanbook_bottom .clanbook_right .item {
+        display: flex;
+        width: 350px;
+        justify-content: center;
+        gap: 5px;
     }
     #clanbook .clanbook_main .clanbook_bottom .clanbook_right .btn {
         display: flex;
@@ -1716,7 +1722,7 @@ p{
     }
 
     h1{
-        font-size: var(--h4);
+        font-size: var(--h5);
         font-weight: 800;
     }
     h2{
@@ -1827,6 +1833,12 @@ p{
     }
     #clanbook .clanbook_main .clanbook_bottom .clanbook_right{
         width: 100%;
+    }
+    #clanbook .clanbook_main .clanbook_bottom .clanbook_right .item {
+        display: flex;
+        width: 350px;
+        justify-content: center;
+        gap: 5px;
     }
     #clanbook .clanbook_main .clanbook_bottom .clanbook_right .btn {
         display: flex;
