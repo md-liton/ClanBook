@@ -773,18 +773,30 @@ p{
     #nav .nav_main .login img {
         display: none;
     }
+    #banner{
+        background-image: url(../images/image.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #banner .overlay{
+        background: #44516492;
+    }
     #banner .banner_main{
         padding: 140px 0px 70px 0px;
         text-align: center;
         width: 350px;
+        margin: 0 auto;
     }
     #banner .banner_main .banner_left h1{
         font-size: 30px;
         text-align: center;
+        width: 350px;
     }
     #banner .banner_main .banner_left p{
-        width: 380px;
+        width: 350px;
         text-align: center;
+        color: #fff;
     }
     #banner .banner_main .banner_right img{
         display: none ;
