@@ -104,10 +104,8 @@ p{
     align-items: center;
 }
 #nav .nav_main .logo{
-    width: 20%;
 }
 #nav .nav_main .menu{
-    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,7 +135,6 @@ p{
     color: var(--color-primary);
 }
 #nav .nav_main .login{
-    width: 20%;
     display: flex ;
     gap: 20px;
     justify-content: end;
@@ -679,9 +676,153 @@ p{
 
 
 /* <<<<<<<Responsive Part Start>>>>>>> */
+@media (max-width: 767.98px){
+    .container{
+        width: 720px;
+        margin: 0 auto;
+    }
+    h1{
+        font-size: 26px;
+        font-weight: 800;
+    }
+    h2{
+        font-size:26px;
+        font-weight: 800;
+    }
+    h3{
+        font-size: 22px;
+        font-weight: 700;
+    }
+    p{
+        font-size: 12px;
+    }
+    #nav .nav_main .logo a img{
+        width: 120px;
+    }
+    #nav .nav_main .menu ul li {
+        padding: 0 12px;
+    }
+    #nav .nav_main .menu ul li a {
+        font-size: 12px;
+    }
+    #nav .nav_main .login {
+        gap: 8px;
+    }
+    #nav .nav_main .login button {
+        padding: 15px 30px;
+        font-size: 12px;
+    }
+    #nav .nav_main .login button {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+    #banner .banner_main .banner_left button {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+    #banner .banner_main .banner_right img{
+        width: 330px;
+    }
+    #clanbook .clanbook_main .clanbook_bottom {
+        padding: 50px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+    }
+    #clanbook .clanbook_main .clanbook_bottom .clanbook_right button {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+    #clanbooker .clanbooker_main {
+        background: #fff;
+        text-align: center;
+        padding: 40px 10px;
+        border-radius: 16px;
+    }
+    #clanbooker .clanbooker_main button {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+    #experience .experience_main .experience_contact {
+        justify-content: center;
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+    #offer .offer_main .offer_bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #offer .offer_main .offer_bottom .offer_left {
+        width: 640px;
+        padding: 15px;
+        margin: 0 auto;
+    }
+    #offer .offer_main .offer_bottom .offer_left .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #offer .offer_main .offer_bottom .offer_left .btn button {
+        padding: 10px 15px;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    #offer .offer_main .offer_bottom .offer_right {
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 8px;
+        margin: 0 auto;
+    }
+    #offer .offer_main .offer_bottom .offer_right .item {
+        width: 640px;
+        padding: 15px;
+        margin: 0 auto;
+    }
+    #offer .offer_main .offer_bottom .offer_right h4 {
+        font-size: 16px;
+    }
+    #community .community_header p {
+        padding: 16px 115px;
+    }
+    #community .community_item {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+
+    #footer .footer_main .subscrib {
+        flex-direction: column;
+        gap: 10px;
+    }
+    #footer .footer_main .subscrib .subscrib_left {
+        width: 500px;
+    }
+    #footer .footer_main .subscrib .subscrib_right {
+        width: 500px;
+    }
+    #footer .footer_main .footer_bottom {
+        gap: 0px;
+    }
+    #footer .footer_main .footer_bottom .left a img{
+        width: 120px;
+    }
+    #footer .footer_main .footer_bottom .right h6{
+        font-size: 14px;
+    }
+    #footer .footer_main .footer_bottom .right a{
+        font-size: 12px;
+    }
 
 
-@media (max-width: 400.98px) {
+}
+
+@media (max-width: 575.98px) {
     .container{
         width: 380px;
         margin: 0 auto;
@@ -812,6 +953,11 @@ p{
     #clanbook {
         padding: 30px 0;
     }
+    #clanbook .clanbook_main .clanbook_header{
+        width: 350px;
+        text-align: center;
+        margin: 0 auto;
+    }
     #clanbook .clanbook_main .clanbook_bottom {
         padding: 30px 0;
         display: flex;
@@ -822,7 +968,9 @@ p{
         width: 300px;
     }
     #clanbook .clanbook_main .clanbook_bottom .clanbook_right{
-        width: 100%;
+        width: 350px;
+        text-align: center;
+        margin: 0 auto;
     }
     #clanbook .clanbook_main .clanbook_bottom .clanbook_right .item {
         display: flex;
@@ -854,6 +1002,12 @@ p{
         font-size: 12px;
     }
 
+    #experience .experience_main .experience_header {
+        text-align: center;
+        width: 350px;
+        margin: 0 auto;
+    }
+
     #experience .experience_main .experience_contact .item {
         width: 150px;
         height: 129px;
@@ -868,6 +1022,11 @@ p{
     }
     #experience .experience_main .experience_contact p {
         font-size: 12px;
+    }
+    #offer .offer_main .offer_header {
+        text-align: center;
+        width: 350px;
+        margin: 0 auto;
     }
     #offer .offer_main .offer_bottom {
         display: flex;
@@ -1010,6 +1169,225 @@ p{
     #copyright h6{
         padding: 4px 0;
         font-size: 15px;
+    }
+}
+@media (max-width: 320.98px){
+    .container{
+        width: 320px;
+        margin: 0 auto;
+    }
+    h1{
+        font-size: 20px;
+        font-weight: 800;
+    }
+    h2{
+        font-size:18px;
+        font-weight: 800;
+    }
+    h3{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    p{
+        font-size: 12px;
+    }
+    #nav {
+        padding: 15px 0;
+        position: relative;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 320px;
+    }
+    #nav .nav_main{
+        width: 300px;
+        padding: 0 10px;
+    }
+    #nav .nav_main .logo a img{
+        width: 80px;
+    }
+    #nav .menu_icon{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 10px;
+        right: 0px;
+        cursor: pointer;
+        font-size: 25px;
+    }
+    #nav .menu_icon img{
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+    }
+    #nav .menu_icon .bar{
+        display: none;
+        transition: all linear .4s;
+        width: 40px;
+    }
+    #nav .menu_icon .close{
+        display: none;
+        transition: all linear .4s;
+        width: 40px;
+    }
+    #nav .menu_icon .menu_active{
+        display: block;
+    }
+
+    #nav .nav_main {
+        display: block;
+    }
+    #nav .nav_main .menu {
+        width: 100%;
+        display: none;
+    }
+    #nav .nav_main .menu ul {
+        display: block;
+    }
+    #nav .nav_main .menu ul li {
+        padding: 4px 0;
+        border: none;
+        padding: 5px 25px;
+    }
+    #nav .nav_main .login {
+        width: 100%;
+        justify-content: left;
+        display: none;
+        padding: 0 25px;
+    }
+    #nav .nav_main .login button {
+        padding: 10px 25px;
+        font-size: 12px;
+    }
+    #nav .nav_main .login img {
+        display: none;
+    }
+    #banner{
+        background-image: url(../images/image.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    #banner .overlay{
+        background: #44516492;
+    }
+    #banner .banner_main{
+        padding: 100px 0px 50px 0px;
+        text-align: center;
+        width: 300px;
+        margin: 0 auto;
+    }
+    #banner .banner_main .banner_left h1{
+        font-size: 20px;
+        text-align: center;
+        width: 300px;
+        color: #fff;
+    }
+    #banner .banner_main .banner_left p{
+        width: 300px;
+        text-align: center;
+        color: #fff;
+    }
+    #banner .banner_main .banner_right{
+        display: none ;
+    }
+    #banner .banner_main .banner_left button {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+    #clanbook .clanbook_main .clanbook_header {
+        width: 300px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #clanbook .clanbook_main .clanbook_bottom .clanbook_left img {
+        width: 290px;
+    }
+    #clanbook .clanbook_main .clanbook_bottom .clanbook_right {
+        padding: 10px;
+        margin: 0 auto;
+    }
+    #clanbook .clanbook_main .clanbook_bottom .clanbook_right .item {
+        display: flex;
+        width: 280px;
+        justify-content: center;
+        gap: 5px;
+    }
+    #clanbook .clanbook_main .clanbook_bottom .clanbook_right {
+        padding: 10px;
+        width: 280px;
+        margin: 0 auto;
+    }
+    #experience .experience_main .experience_header {
+        text-align: center;
+        width: 300px;
+        margin: 0 auto;
+    }
+    #experience .experience_main .experience_contact .item {
+        width: 130px;
+        height: 120px;
+        padding: 15px 15px;
+    }
+
+    #offer .offer_main .offer_header {
+        text-align: center;
+        width: 300px;
+        margin: 0 auto;
+    }
+    #offer .offer_main .offer_bottom .offer_left {
+        width: 300px;
+        padding: 15px;
+        margin: 0 auto;
+    }
+    #offer .offer_main .offer_bottom .offer_right {
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 8px;
+        margin: 0 auto;
+    }
+    #offer .offer_main .offer_bottom .offer_right .item {
+        width: 280px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    #community .community_header {
+        text-align: center;
+        width: 280px;
+        margin: 0 auto;
+    }
+    #community .community_item .item {
+        padding: 10px;
+        border-radius: 10px;
+        width: 280px;
+        margin: 10px 0;
+    }
+    #footer .footer_main .subscrib p {
+        width: 255px;
+    }
+    #footer .footer_main .subscrib {
+        width: 300px;
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    #footer .footer_main .subscrib .subscrib_left {
+        width: 280px;
+        margin: 0 auto;
+    }
+    #footer .footer_main .footer_bottom .right {
+        width: 300px;
+        padding: 10px 0;
+        margin: 0 auto;
+    }
+    #footer .footer_main .footer_bottom .right .items {
+        flex-wrap: wrap;
     }
 }
 /* <<<<<<<Responsive Part End>>>>>>> */
