@@ -792,13 +792,14 @@ p{
         font-size: 30px;
         text-align: center;
         width: 350px;
+        color: #fff;
     }
     #banner .banner_main .banner_left p{
         width: 350px;
         text-align: center;
         color: #fff;
     }
-    #banner .banner_main .banner_right img{
+    #banner .banner_main .banner_right{
         display: none ;
     }
     #banner .banner_main .banner_left button {
