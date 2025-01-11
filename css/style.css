@@ -555,7 +555,6 @@ p{
     align-items: center;
 }
 #footer .footer_main .subscrib .subscrib_left{
-    width: 60%;
     display: flex;
     align-items: center;
     gap: 15px;
@@ -713,6 +712,9 @@ p{
     #nav .nav_main{
         width: 350px;
     }
+    #nav .nav_main .logo a img{
+        width: 120px;
+    }
     #nav .menu_icon{
         display: flex;
         align-items: center;
@@ -795,7 +797,9 @@ p{
     }
     #clanbook .clanbook_main .clanbook_bottom {
         padding: 30px 0;
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     #clanbook .clanbook_main .clanbook_bottom .clanbook_left img{
         width: 300px;
@@ -823,6 +827,7 @@ p{
         padding: 14px 10px;
         border-radius: 8px;
         width: 350px;
+        margin: 0 auto;
     }
     #clanbooker .clanbooker_main p {
         padding: 15px 15px;
@@ -848,8 +853,9 @@ p{
         font-size: 12px;
     }
     #offer .offer_main .offer_bottom {
-        display: block;
-        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     #offer .offer_main .offer_bottom .offer_left {
         width: 100%;
@@ -867,6 +873,10 @@ p{
     }
     #offer .offer_main .offer_bottom .offer_right {
         width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
     }
     #offer .offer_main .offer_bottom .offer_right .item {
         width: 350px;
@@ -885,7 +895,7 @@ p{
     }
     #community .community_item {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
         padding: 20px 0;
     }
@@ -906,7 +916,12 @@ p{
     #footer .footer_main .subscrib {
         border-radius: 10px;
         padding: 10px;
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #footer .footer_main .subscrib h5 {
+        font-size: 22px;
     }
     #footer .footer_main .subscrib .subscrib_left {
         width: 100%;
@@ -928,8 +943,10 @@ p{
         font-size: 12px;
     }
     #footer .footer_main .footer_bottom {
-        display: block;
         margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     #footer .footer_main .footer_bottom .left {
         width: 100%;
@@ -945,6 +962,7 @@ p{
     #footer .footer_main .footer_bottom .right {
         width: 350px;
         padding: 10px 0;
+        margin: 0 auto;
     }
     #footer .footer_main .subscrib .subscrib_right .email_input .input input {
         font-size: 13px;
