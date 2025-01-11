@@ -711,6 +711,7 @@ p{
     }
     #nav .nav_main{
         width: 350px;
+        padding: 0 10px;
     }
     #nav .nav_main .logo a img{
         width: 120px;
@@ -775,6 +776,7 @@ p{
     #banner .banner_main{
         padding: 140px 0px 70px 0px;
         text-align: center;
+        width: 350px;
     }
     #banner .banner_main .banner_left h1{
         font-size: 30px;
@@ -826,7 +828,7 @@ p{
     #clanbooker .clanbooker_main {
         padding: 14px 10px;
         border-radius: 8px;
-        width: 350px;
+        width: 300px;
         margin: 0 auto;
     }
     #clanbooker .clanbooker_main p {
@@ -858,8 +860,9 @@ p{
         justify-content: center;
     }
     #offer .offer_main .offer_bottom .offer_left {
-        width: 100%;
+        width: 340px;
         padding: 15px;
+        margin: 0 auto;
     }
     #offer .offer_main .offer_bottom .offer_left .btn{
         display: flex;
@@ -876,12 +879,13 @@ p{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        gap: 8px;
         margin: 0 auto;
     }
     #offer .offer_main .offer_bottom .offer_right .item {
-        width: 350px;
+        width: 330px;
         padding: 15px;
-        margin: 10px 0;
+        margin: 0 auto;
     }
     #offer .offer_main .offer_bottom .offer_right h4 {
         font-size: 15px;
@@ -914,21 +918,27 @@ p{
         padding: 30px 0;
     }
     #footer .footer_main .subscrib {
+        width: 340px;
         border-radius: 10px;
         padding: 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin: 0 auto;
     }
     #footer .footer_main .subscrib h5 {
-        font-size: 22px;
+        font-size: 17px;
+    }
+    #footer .footer_main .subscrib p {
+        width: 300px;
     }
     #footer .footer_main .subscrib .subscrib_left {
-        width: 100%;
+        width: 350px;
+        margin: 0 auto;
     }
     #footer .footer_main .subscrib .subscrib_left .email {
-        height: 45px;
-        width: 45px;
+        height: 30px;
+        width: 30px;
         border-radius: 6px;
     }
     #footer .footer_main .subscrib .subscrib_right {
