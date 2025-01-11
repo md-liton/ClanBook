@@ -264,12 +264,13 @@ p{
 
 
 /* ClanBooker Css Part Start */
-#clanbooker{
+#clanbooker {
     padding: 50px 0;
     background: url(../images/clanbooker.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
 }
 #clanbooker .clanbooker_main{
     background: #fff;
@@ -778,6 +779,7 @@ p{
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        width: 100%;
     }
     #banner .overlay{
         background: #44516492;
